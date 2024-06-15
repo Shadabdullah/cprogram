@@ -21,14 +21,11 @@ int ship(int argc, char *argv[]) {
 }
 
 
-
 #include <stdio.h>
 
 int main() {
-    char s[] = "How big is it?";
-    char *t = s;
-
-    printf("%c\n", *t);
-
+    char *ptr = "Hello wordl"; // Example pointer to a string literal
+    unsigned long decimal_address = (unsigned long)ptr; // Typecasting pointer to unsigned long
+    printf("Memory address in decimal: %lu\n", decimal_address);
     return 0;
 }
