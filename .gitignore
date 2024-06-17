@@ -1,0 +1,32 @@
+
+# Ignore object files
+*.o
+
+# Ignore executable files
+*.exe
+*.out
+*.a
+*.so
+my_program  # Add your specific executable name here
+
+# Ignore debug files
+*.dSYM/
+*.dSYM/*
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore editor and OS files
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore other common generated files
+*.gch
