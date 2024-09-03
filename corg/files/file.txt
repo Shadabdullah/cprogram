@@ -1,0 +1,4 @@
+Here, c is a scalar variable that can store only a single value. However, you are already familiar with arrays that can hold multiple values of the same data type in a contiguously allocated memory block. So, you might wonder, can we have pointers to arrays too? Indeed, we can.
+
+Let us start with an example code and look at its output. We will discuss its behavior subsequently.
+
